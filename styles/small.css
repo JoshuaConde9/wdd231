@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Balthazar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quintessential-regular {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.balthazar-regular {
+    font-family: "Balthazar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #FFB4A2;
+    --secondary-color: #FFCDB2;
+    --accent1-color: #E5989B;
+    --accent2-color: #46434b;
+}
+
+.title img {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: auto;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 1rem;
+
+}
+
+.title {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    text-shadow: 1px 1px black;
+    font-size: large;
+}
+
+.title button {
+    display: block;
+    margin: 0 auto;
+}
+
+#menu {
+    display: flex;
+    align-self: right;
+    background: none;
+    border: none;
+}
+
+#menu::before {
+    content: "☰";
+    font-size: 32px;
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+.nav-menu {
+    display: none;
+}
+
+.nav-menu.open {
+    display: grid;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+
+.nav-menu a {
+    padding: 1rem 2rem;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+.nav-menu a:hover {
+    background-color: var(--primary-color);
+    color: black;
+}
+
+main {
+    margin: 1.5rem
+}
+
+.sections {
+    display: grid;
+}
+
+section {
+    background-color: var(--primary-color);
+    margin: 1.5rem 0rem;
+}
+
+section p, section img{
+    padding: 1.5rem;
+}
+
+.student-photo img {
+    display: block;
+    margin: 0 auto;
+    width: 70%
+}
+
+section h2 {
+    background-color: var(--accent1-color);
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.icons {
+    justify-self: center;
+}
+
+.icons a img {
+    width: 40px;
+}
+
+.icons a img:hover {
+    background-color: var(--accent1-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+
+

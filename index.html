@@ -4,11 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD231 - Joshua Conde Pérez</title>
+    <title>WDD231 Home Page - Joshua Conde Pérez</title>
+    <meta name="description" content="WDD231 Home Page by Joshua Conde.">
+    <meta name="author" content="Joshua Conde Pérez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
 </head>
 
 <body>
-    <h1>WDD231 - Joshua Conde Pérez</h1>
+    <header>
+        <div class="title">
+            <img src="images/coding-logo.svg" alt="Coding Logo">
+            <span>WDD231 - Joshua Conde Pérez</span>
+            <button type="button" id="menu"></button>
+        </div>
+    </header>
+
+    <nav class="nav-menu">
+        <a href="#" id="home">Home</a>
+        <a href="#" id="chamber">Chamber Project</a>
+        <a href="#" id="final">Final Project</a>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+            <div class="sections">
+                <section class="about-me">
+                    <h2>About Me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores neque hic illo nulla, cum id sapiente magni, tempore eligendi numquam incidunt molestias. Repellendus porro facere officia dignissimos minima voluptatibus placeat illo ea? Vel laudantium quibusdam illo rem iure eligendi assumenda odit quia harum voluptate rerum commodi veniam voluptatem doloremque corporis praesentium consectetur a quo eius, veritatis magni fugiat porro dolore.</p>
+                </section>
+
+                <section class="student-photo">
+                    <h2>Student Photo</h2>
+                    <img src="images/profile.png" alt="Student Photo">
+                </section>
+
+                <section class="certificates">
+                    <h2>Web Certificate Courses</h2>
+        
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <nav class="icons">
+            <a href="https://github.com/JoshuaConde9" id="github">
+                <img src="images/github-icon.png" alt="Github">
+            </a>
+            <a href="https://www.instagram.com/yoshi.fake/" id="instagram">
+                <img src="images/instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/joshua-conde-p%C3%A9rez-520a81374/" id="linkedin">
+                <img src="images/linkedin-icon.png" alt="Linkedin">
+            </a>
+        </nav>
+        <p>
+            <span id="currentyear"></span>
+        </p>
+        <p>
+            <span id="lastmodified"></span>
+        </p>
+    </footer>
 </body>
 
 </html>

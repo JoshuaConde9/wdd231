@@ -48,7 +48,7 @@ header {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
     text-shadow: 1px 1px black;
-    font-size: large;
+    font-size: medium;
 }
 
 .title button {

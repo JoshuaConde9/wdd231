@@ -33,7 +33,7 @@ header {
     align-items: center;
     padding: 1rem;
     background-color: var(--accent1-color);
-    color: var(--accent2-color);
+    color: black;
     text-shadow: 1px 1px black;
     font-size: large;
     font-weight: 800;
@@ -46,7 +46,6 @@ header {
 
 #menu {
     display: flex;
-    align-self: right;
     background: none;
     border: none;
 }

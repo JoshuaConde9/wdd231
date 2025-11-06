@@ -1,3 +1,44 @@
 @media (min-width: 1024px) {
-    
+    #menu {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        background-color: var(--secondary-color);
+        padding: 0rem 1rem 1rem 1rem;
+        background-color: var(--primary-color);
+    }
+
+    .nav-menu a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title {
+        font-size: xx-large;
+    }
+
+    .sections {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-gap: 1rem;
+        margin-right: 1.5rem;
+    }
+
+    section {
+        max-height: 600px;
+    }
+
+    .student-photo img {
+        display: block;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+    .certificates {
+        max-block-size: none;
+        grid-column: 1/3;
+    }
+
 }

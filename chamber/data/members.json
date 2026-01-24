@@ -1,0 +1,76 @@
+{
+    "members": [
+        {
+            "name": "Café Andino",
+            "address": "Cra. 12 #85-24, Bogotá, Colombia",
+            "phone": "+57 1 321 4567",
+            "website": "https://www.cafeandino.co",
+            "image": "cafe-andino.webp",
+            "membershipLevel": 3,
+            "description": "A family-owned coffee shop offering locally roasted beans and community events."
+        },
+        {
+            "name": "Tech Bogotá Solutions",
+            "address": "Av. El Dorado #90-10, Bogotá, Colombia",
+            "phone": "+57 1 555 2040",
+            "website": "https://www.techbogota.co",
+            "image": "techbogota.webp",
+            "membershipLevel": 2,
+            "description": "An IT company providing software and cybersecurity services to local businesses."
+        },
+        {
+            "name": "GreenLife Landscaping",
+            "address": "Cl. 134 #19-87, Bogotá, Colombia",
+            "phone": "+57 312 777 8888",
+            "website": "https://www.greenlife.co",
+            "image": "greenlife.webp",
+            "membershipLevel": 1,
+            "description": "Eco-friendly landscaping and garden maintenance company."
+        },
+        {
+            "name": "Construval S.A.",
+            "address": "Av. Caracas #72-15, Bogotá, Colombia",
+            "phone": "+57 1 234 9876",
+            "website": "https://www.construval.com",
+            "image": "construval.webp",
+            "membershipLevel": 3,
+            "description": "Leaders in sustainable construction and urban development projects."
+        },
+        {
+            "name": "CreativeHub Bogotá",
+            "address": "Cl. 93A #13-24, Bogotá, Colombia",
+            "phone": "+57 1 654 2233",
+            "website": "https://www.creativehubbogota.co",
+            "image": "creativehub.webp",
+            "membershipLevel": 2,
+            "description": "A co-working space that connects designers, developers, and startups."
+        },
+        {
+            "name": "BogoHotel Plaza",
+            "address": "Cra. 7 #71-21, Bogotá, Colombia",
+            "phone": "+57 1 222 3344",
+            "website": "https://www.bogohotelplaza.com",
+            "image": "bogohotel.webp",
+            "membershipLevel": 1,
+            "description": "A boutique hotel offering premium accommodations and event spaces."
+        },
+        {
+            "name": "FreshMarket Bogotá",
+            "address": "Av. Suba #115-05, Bogotá, Colombia",
+            "phone": "+57 1 340 7788",
+            "website": "https://www.freshmarket.co",
+            "image": "freshmarket.webp",
+            "membershipLevel": 2,
+            "description": "Local grocery chain supporting Colombian farmers and organic produce."
+        },
+        {
+            "name": "Innovar Digital S.A.S.",
+            "address": "Calle 93A #14-17, Bogotá D.C.",
+            "phone": "+57 601 489 7623",
+            "website": "https://innovardigital.co",
+            "image": "innovar-digital.webp",
+            "membershipLevel": 3,
+            "description": "Innovar Digital S.A.S. is a technology solutions company specializing in web development, mobile apps, and cloud infrastructure for businesses in Colombia and Latin America."
+        }
+    ]
+}

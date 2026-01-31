@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bogotá Chamber Directory</title>
-    <meta name="description" content="Connect with Bogotá Chamber of Commerce members and explore verified local businesses near you.">
+    <title>Bogotá Chamber Home Page</title>
+    <meta name="description" content="The Bogotá Chamber home page provides information, services, and resources to support businesses, entrepreneurs, and economic development in Bogotá.">
     <meta name="author" content="Joshua Conde Pérez">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/small.css">
@@ -12,15 +12,16 @@
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/members.js" defer></script>
+    <script src="scripts/home.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
    
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
 
-    <meta property="og:title" content="Bogotá Chamber of Commerce Directory">
+    <meta property="og:title" content="Bogotá Chamber of Commerce">
     <meta property="og:description" content="Connect with Bogotá Chamber of Commerce members and explore verified local businesses near you.">
-    <meta property="og:url" content="https://joshuaconde9.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://joshuaconde9.github.io/wdd231/chamber/index.html">
     <meta property="og:locale" content="en_US">
     <meta property="og:image" content="images/bogota_image.jpg">
     <meta property="og:type" content="website">
@@ -30,7 +31,7 @@
     <header>
         <div class="title">
             <img src="images/chamber-logo.png" alt="Chamber Logo">
-            <span>Bogotá Chamber of Commerce Directory</span>
+            <span>Bogotá Chamber of Commerce</span>
             <button type="button" id="menu"></button>
         
 
@@ -43,14 +44,45 @@
         <a href="#" id="join">Join</a>
     </nav>
 
-    <main>
-        <h1>Directory</h1>
-        <div class="view-buttons">
-            <button id="grid-view" class="active">Grid View</button>
-            <button id="list-view">List View</button>
-        </div>
-        <section id="members-container" class="grid"></section>
-    </main>
+<main>
+ <h1>Welcome to the Bogotá Chamber</h1>
+  <section class="hero">
+    <picture>
+      <source srcset="images/hero-large.jpg" media="(min-width: 900px)">
+      <img src="images/hero-small.jpg" alt="Bogotá city skyline with business district">
+    </picture>
+
+    <div class="hero-content">
+      <p>Supporting local businesses and strengthening our community.</p>
+      <a href="join.html" class="cta-button">Join the Chamber</a>
+    </div>
+  </section>
+
+  <div class="sections">
+
+    <section class="events">
+      <h2>Current Events</h2>
+      <ul>
+        <li>
+          <h3>Small Business Networking Night</h3>
+          <p>February 15 - Downtown Bogotá</p>
+        </li>
+        <li>
+          <h3>Entrepreneur Workshop Series</h3>
+          <p>March 5 - Virtual Event</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="weather"></section>
+
+    <section class="spotlights">
+      <h2>Member Spotlights</h2>
+      <div class="spotlight-container"></div>
+    </section>
+  </div>
+</main>
+
 
     <footer>
         <section class="contact-info">

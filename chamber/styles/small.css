@@ -321,6 +321,7 @@ footer p {
 
 .forecast-list {
     list-style: none;
+    padding: 0;
 }
 
 /*spotlight*/

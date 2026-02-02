@@ -13,10 +13,6 @@
     --text-color: #1E1E1E;
 }
 
-h1 {
-    text-align: center;
-}
-
 .title img {
     display: block;
     margin: 0 auto;
@@ -62,6 +58,7 @@ header {
 h1 {
     color: var(--primary-color);
     justify-self: center;
+    text-align: center;
 }
 
 #menu.open::before {

@@ -359,12 +359,6 @@ footer p {
     gap: 2rem;
 }
 
-.join-form label {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
-}
-
 .membership-cards {
     display: grid;
     gap: 1rem;

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join us! Bogotá Chamber</title>
+    <meta name="description" content="Join us in the Bogotá Chamber!.">
+    <meta name="author" content="Joshua Conde Pérez">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/members.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+
+    <meta property="og:title" content="Join the Bogotá Chamber of Commerce">
+    <meta property="og:description" content="Connect with Bogotá Chamber of Commerce members and explore verified local businesses near you.">
+    <meta property="og:url" content="https://joshuaconde9.github.io/wdd231/chamber/join.html">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://joshuaconde9.github.io/wdd231/chamber/images/bogota_image.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Bogotá Chamber of Commerce">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="images/chamber-logo.png" alt="Chamber Logo">
+            <span>Bogotá Chamber of Commerce</span>
+            <button type="button" id="menu"></button>
+        
+        </div>
+    </header>
+    <nav class="nav-menu">
+        <a href="index.html" id="home">Home</a>
+        <a href="#" id="discover">Discover</a>
+        <a href="directory.html" id="directory">Directory</a>
+        <a href="join.html" id="join">Join</a>
+    </nav>
+
+<main>
+    <h1>Join the Chamber</h1>
+    <div class="join-layout">
+
+        <form method="get" action="thankyou.html" class="join-form">
+
+            <label>
+                <span class="required" aria-hidden="true">First Name *</span>
+                <input
+                    type="text"
+                    name="fname"
+                    title="First Name"
+                    required
+                    autocomplete="given-name">
+            </label>
+
+            <label>
+                <span class="required" aria-hidden="true">Last Name *</span>
+                <input
+                    type="text"
+                    name="lname"
+                    title="Last Name"
+                    required
+                    autocomplete="family-name">
+            </label>
+
+            <label>
+                Organizational Title
+                <input
+                    type="text"
+                    name="orgtitle"
+                    title="Organizational Title"
+                    autocomplete="organization-title"
+                    pattern="[A-Za-z\s\-]{7,}">
+            </label>
+
+            <label>
+                <span class="required" aria-hidden="true">Email Address *</span>
+                <input
+                    type="email"
+                    name="email"
+                    title="Email Address"
+                    placeholder="example@email.com"
+                    required
+                    autocomplete="email">
+            </label>
+
+            <label>
+                <span class="required" aria-hidden="true">Mobile Phone *</span>
+                <input
+                    type="tel"
+                    name="phone"
+                    title="Mobile Phone Number"
+                    required
+                    autocomplete="tel">
+            </label>
+
+            <label>
+                <span class="required" aria-hidden="true">Business / Organization Name *</span>
+                <input
+                    type="text"
+                    name="business"
+                    title="Business Name"
+                    required
+                    autocomplete="organization">
+            </label>
+
+            <label class="full">
+                <span class="required" aria-hidden="true">Membership Level *</span>
+                <select
+                    name="membership"
+                    title="Membership Level"
+                    required>
+                    <option value="">Select a level</option>
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+
+            <label class="full">
+                Business Description
+                <textarea
+                    name="description"
+                    title="Business Description"></textarea>
+            </label>
+
+            <input type="hidden" name="timestamp" id="timestamp">
+
+            <input type="submit" value="Apply for Membership">
+
+        </form>
+
+        <section class="membership-cards">
+            <div class="card">
+                <h2>NP membership<br>⚫</h2>
+                <p>No cost for non-profits</p>
+                <a href="#" data-modal="npModal">Learn More</a>
+            </div>
+
+            <div class="card">
+                <h2>Bronze<br>🟤</h2>
+                <p>Basic visibility</p>
+                <a href="#" data-modal="bronzeModal">Learn More</a>
+            </div>
+
+            <div class="card">
+                <h2>Silver<br>⚪</h2>
+                <p>Events & promotion</p>
+                <a href="#" data-modal="silverModal">Learn More</a>
+            </div>
+
+            <div class="card">
+                <h2>Gold<br>🟡</h2>
+                <p>Premium exposure</p>
+                <a href="#" data-modal="goldModal">Learn More</a>
+            </div>
+        </section>
+    </div>
+</main>
+
+<dialog id="npModal">
+    <h3>NP Membership Benefits</h3>
+    <p>Free membership, networking events, basic training.</p>
+    <button>Close</button>
+</dialog>
+
+<dialog id="bronzeModal">
+    <h3>Bronze Membership Benefits</h3>
+    <p>Directory listing, networking events, basic advertising.</p>
+    <button>Close</button>
+</dialog>
+
+<dialog id="silverModal">
+    <h3>Silver Membership Benefits</h3>
+    <p>Event discounts, spotlight opportunities, training access.</p>
+    <button>Close</button>
+</dialog>
+
+<dialog id="goldModal">
+    <h3>Gold Membership Benefits</h3>
+    <p>Homepage spotlights, premium ads, exclusive events.</p>
+    <button>Close</button>
+</dialog>
+
+
+    <footer>
+        <section class="contact-info">
+            <h3>Contact Us</h3>
+            <p>Bogotá Chamber of Commerce</p>
+            <p>Calle 12 #34-56, Bogotá, Colombia</p>
+            <p>📞 +57 (1) 500-1000 📞</p>
+            <p>✉️ info@bogotachamber.org ✉️</p>
+        </section>
+        <p>
+            <span id="currentyear"></span>
+        </p>
+        <p>
+            <span id="lastmodified"></span>
+        </p>
+    </footer>
+</body>
+</html>

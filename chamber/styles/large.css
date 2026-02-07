@@ -52,4 +52,21 @@
         border-radius: 6px;
     }
 
+    .join-layout {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        align-items: start;
+    }
+
+    .join-form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.75rem;
+    }
+
+    .join-form label:nth-child(7), .join-form label:nth-child(8), .join-form input[type="submit"] {
+        grid-column: 1 / -1;
+    }
+
 }

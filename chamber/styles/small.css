@@ -93,7 +93,7 @@ h1 {
 
 main {
     margin: 1.5rem;
-    background-color: var(--background-color);
+    background-color: white;
 }
 
 .sections {
@@ -351,3 +351,144 @@ footer p {
 .spotlight a:hover {
     color: var(--secondary-color);
 }
+
+
+/*join page*/
+.join-layout {
+    display: grid;
+    gap: 2rem;
+}
+
+.join-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.membership-cards {
+    display: grid;
+    gap: 1rem;
+    animation: fadeIn 1.2s ease-in;
+}
+
+.card {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+.join-form {
+    background: #ffffff;
+    padding: 1.75rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 18px rgba(0,0,0,0.08);
+    max-width: 100%;
+}
+
+.join-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    color: #333;
+}
+
+.join-form input, .join-form select, .join-form textarea {
+    margin-top: 0.4rem;
+    padding: 0.6rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    font-family: inherit;
+}
+
+.join-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.join-form input:focus, .join-form select:focus, .join-form textarea:focus {
+    outline: none;
+    border-color: #0057a8;
+    box-shadow: 0 0 0 3px rgba(0,87,168,0.2);
+}
+
+.join-form input::placeholder {
+    color: #999;
+}
+
+.join-form input[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: #0057a8;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.25s ease, transform 0.15s ease;
+}
+
+.join-form input[type="submit"]:hover,
+.join-form input[type="submit"]:focus {
+    background-color: #003f7f;
+    transform: translateY(-1px);
+}
+
+.join-form input,
+.join-form select, .join-form textarea {
+    border-left: 4px solid #0057a8;
+}
+
+dialog {
+    padding: 1.5rem 2rem;
+    border: none;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90%;
+}
+
+dialog p {
+    margin: 1rem 0rem;
+}
+
+dialog[open] {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*thank you page*/
+
+.thankyou-card {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 1.75rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.thankyou-card p {
+    margin: 0.75rem 0;
+    font-size: 1.05rem;
+    line-height: 1.4;
+}
+
+.thankyou-card strong {
+    color: #0057a8;
+}
+

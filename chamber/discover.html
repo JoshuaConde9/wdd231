@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Bogotá</title>
+    <meta name="description"
+        content="Discover the culture, economy, and attractions that make Bogotá a vibrant place for business and tourism.">
+    <meta name="author" content="Joshua Conde Pérez">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/discover.js"></script>
+
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <img src="images/chamber-logo.png" alt="Chamber Logo">
+            <span>Bogotá Chamber of Commerce</span>
+            <button type="button" id="menu"></button>
+        </div>
+    </header>
+
+    <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="discover.html" class="active">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
+
+    <main>
+        <h1>Discover Bogotá</h1>
+
+        <div id="visit-message" class="visit-banner"></div>
+
+        <section class="discover-grid" id="discover-container">
+        </section>
+    </main>
+
+    <footer>
+        <section class="contact-info">
+            <h3>Contact Us</h3>
+            <p>Bogotá Chamber of Commerce</p>
+            <p>Calle 12 #34-56, Bogotá, Colombia</p>
+            <p>📞 +57 (1) 500-1000</p>
+            <p>✉️ info@bogotachamber.org</p>
+        </section>
+
+        <p><span id="currentyear"></span></p>
+        <p><span id="lastmodified"></span></p>
+    </footer>
+</body>
+
+</html>

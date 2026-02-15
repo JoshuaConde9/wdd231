@@ -511,6 +511,11 @@ dialog::backdrop {
         "card8";
 }
 
+.h2{
+    text-align: center;
+    font-style: italic;
+}
+
 .discover-card {
     background: white;
     padding: 1rem;

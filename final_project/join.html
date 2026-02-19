@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dracarys Gym - Strength. Fire. Discipline.</title>
+    <meta name="description"
+        content="Dracarys Gym offers elite training, modern equipment, and expert-led classes to help you build strength and confidence.">
+    <meta name="author" content="Joshua Conde Pérez">
+
+    <meta property="og:title" content="Dracarys Gym">
+    <meta property="og:description" content="Train with fire. Become unstoppable.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://joshuaconde9.github.io/wdd231/final_project/">
+    <meta property="og:image" content="https://joshuaconde9.github.io/wdd231/final_project/images/hero.jpg">
+
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="module" src="scripts/classes.js" defer></script>
+    <script type="module" src="scripts/storage.js" defer></script>
+    <script type="module" src="scripts/date.js" defer></script>
+    <script type="module" src="scripts/navigation.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">
+            <img src="images/dracarys-logo.png" alt="Dracarys Logo">
+            <h1>Dracarys Gym</h1>
+        </div>
+        <button id="menuBtn" aria-label="Menu">
+            <span class="icon">&#9776;</span>
+        </button>
+        <nav id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="classes.html">Classes</a>
+            <a href="join.html">Join</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <form action="thanks.html" method="get">
+            <label>Full Name
+                <input type="text" name="name" required>
+            </label>
+
+            <label>Email
+                <input type="email" name="email" required>
+            </label>
+
+            <label>Membership
+                <select name="plan">
+                    <option>Basic</option>
+                    <option>Pro</option>
+                    <option>Elite</option>
+                </select>
+            </label>
+
+            <button type="submit">Join Now</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>
+            <span id="currentyear"></span>
+        </p>
+        <p>
+            <span id="lastmodified"></span>
+        </p>
+    </footer>
+
+</body>
+
+</html>

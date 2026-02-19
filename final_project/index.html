@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dracarys Gym - Strength. Fire. Discipline.</title>
+    <meta name="description"
+        content="Dracarys Gym offers elite training, modern equipment, and expert-led classes to help you build strength and confidence.">
+    <meta name="author" content="Joshua Conde Pérez">
+
+    <meta property="og:title" content="Dracarys Gym">
+    <meta property="og:description" content="Train with fire. Become unstoppable.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://joshuaconde9.github.io/wdd231/final_project/">
+    <meta property="og:image" content="https://joshuaconde9.github.io/wdd231/final_project/images/hero.jpg">
+
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="module" src="scripts/classes.js" defer></script>
+    <script type="module" src="scripts/storage.js" defer></script>
+    <script type="module" src="scripts/date.js" defer></script>
+    <script type="module" src="scripts/navigation.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">
+            <img src="images/dracarys-logo.png" alt="Dracarys Logo">
+            <h1>Dracarys Gym</h1>
+        </div>
+        <button id="menuBtn" aria-label="Menu">
+            <span class="icon">&#9776;</span>
+        </button>
+        <nav id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="classes.html">Classes</a>
+            <a href="join.html">Join</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <img src="images/hero.jpg" alt="Dracarys Gym training facility">
+            <h2>Strength. Fire. Discipline.</h2>
+            <p>Push beyond limits and build the strongest version of yourself.</p>
+        </section>
+
+
+        <section id="visitMessage"></section>
+
+        <section class="membership">
+            <h2>Membership Plans</h2>
+            <div class="cards">
+
+                <article>
+                    <h3>Basic</h3>
+                    <p>$29/month</p>
+                    <p>Access to gym floor and equipment.</p>
+                    <a href="join.html?plan=basic" class="join-btn">Join Basic</a>
+                </article>
+
+                <article>
+                    <h3>Pro</h3>
+                    <p>$49/month</p>
+                    <p>Includes all classes and locker access.</p>
+                    <a href="join.html?plan=pro" class="join-btn">Join Pro</a>
+                </article>
+
+                <article>
+                    <h3>Elite</h3>
+                    <p>$79/month</p>
+                    <p>Personal trainer + full facility access.</p>
+                    <a href="join.html?plan=elite" class="join-btn">Join Elite</a>
+                </article>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>
+            <span id="currentyear"></span>
+        </p>
+        <p>
+            <span id="lastmodified"></span>
+        </p>
+    </footer>
+
+</body>
+
+</html>

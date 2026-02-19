@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "HIIT Inferno",
+        "trainer": "Juan Sebastián Gómez",
+        "duration": "45 minutes",
+        "difficulty": "Advanced",
+        "schedule": "Mon & Wed - 6PM",
+        "image": "images/hiit.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Powerlifting",
+        "trainer": "María Fernanda Rodríguez",
+        "duration": "60 minutes",
+        "difficulty": "Intermediate",
+        "schedule": "Tue & Thu - 7PM",
+        "image": "images/powerlifting.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Beginner Strength",
+        "trainer": "Andrés Felipe Martínez",
+        "duration": "50 minutes",
+        "difficulty": "Beginner",
+        "schedule": "Mon & Fri - 5PM",
+        "image": "images/strength.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Core Crusher",
+        "trainer": "Valentina Torres",
+        "duration": "40 minutes",
+        "difficulty": "All Levels",
+        "schedule": "Tue & Thu - 6AM",
+        "image": "images/core.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Cardio Burn",
+        "trainer": "Camilo Andrés Herrera",
+        "duration": "45 minutes",
+        "difficulty": "Intermediate",
+        "schedule": "Mon, Wed & Fri - 7AM",
+        "image": "images/cardio.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Boxing Conditioning",
+        "trainer": "Santiago López",
+        "duration": "60 minutes",
+        "difficulty": "Advanced",
+        "schedule": "Saturday - 10AM",
+        "image": "images/boxing.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Mobility & Recovery",
+        "trainer": "Laura Sofía Ramírez",
+        "duration": "45 minutes",
+        "difficulty": "Beginner",
+        "schedule": "Sunday - 9AM",
+        "image": "images/mobility.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Leg Day Destroyer",
+        "trainer": "Nicolás Vargas",
+        "duration": "55 minutes",
+        "difficulty": "Advanced",
+        "schedule": "Wednesday - 8PM",
+        "image": "images/legday.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Functional Fitness",
+        "trainer": "Daniela Castro",
+        "duration": "50 minutes",
+        "difficulty": "Intermediate",
+        "schedule": "Tuesday - 5PM",
+        "image": "images/functional.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Total Body Blast",
+        "trainer": "Mateo Cárdenas",
+        "duration": "60 minutes",
+        "difficulty": "All Levels",
+        "schedule": "Friday - 6PM",
+        "image": "images/totalbody.jpg"
+    }
+]

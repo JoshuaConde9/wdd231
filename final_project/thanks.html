@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Dracarys Gym</title>
+
+    <meta name="description" content="Thank you for joining Dracarys Gym. Your journey to strength starts now.">
+    <meta name="author" content="Joshua Conde Pérez">
+
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <script type="module" src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/date.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">
+            <img src="images/dracarys-logo.png" alt="Dracarys Logo">
+            <h1>Dracarys Gym</h1>
+        </div>
+
+        <button id="menuBtn" aria-label="Menu"></button>
+
+        <nav id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="classes.html">Classes</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="confirmation">
+            <h2 id="welcomeMessage"></h2>
+            <p id="planMessage"></p>
+
+            <a href="index.html" class="join-btn">Return to Home</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            <span id="currentyear"></span>
+        </p>
+        <p>
+            <span id="lastmodified"></span>
+        </p>
+    </footer>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+
+        const name = params.get("name");
+        const plan = params.get("plan");
+
+        const welcomeMessage = document.getElementById("welcomeMessage");
+        const planMessage = document.getElementById("planMessage");
+
+        if (name && plan) {
+            welcomeMessage.textContent = `Welcome ${name}!`;
+            planMessage.textContent = `You have successfully selected the ${plan} membership plan.`;
+        } else {
+            welcomeMessage.textContent = "Thank you for joining Dracarys Gym!";
+            planMessage.textContent = "Your strength journey begins now.";
+        }
+    </script>
+
+</body>
+
+</html>
